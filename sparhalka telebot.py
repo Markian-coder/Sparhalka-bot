@@ -6,7 +6,7 @@ bot = telebot.TeleBot(TOKEN)
 
 wikipedia.set_lang("uk")
 
-# Зберігаємо останню тему, прогрес та фотки для кожного юзера
+
 user_data = {}
 
 @bot.message_handler(commands=['start'])
